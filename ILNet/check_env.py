@@ -1,0 +1,1 @@
+﻿import jittor as jt; import cv2; import numpy as np; import matplotlib; print('Jittor:', jt.__version__); print('numpy:', np.__version__); print('OpenCV:', cv2.__version__); print('Matplotlib:', matplotlib.__version__); jt.flags.use_cuda=1; print('Jittor GPU:', jt.compiler.has_cuda)
