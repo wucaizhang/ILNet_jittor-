@@ -1,0 +1,12 @@
+# 忽略数据集文件夹
+/datasets/
+/data/
+
+# 忽略训练产生的权重文件
+/weights/
+*.pth
+*.onnx
+
+# 忽略系统文件
+.DS_Store
+__pycache__/
